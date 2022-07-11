@@ -25,7 +25,7 @@
                 
               
               
-   #title{font-size: 3.000em;
+   #title{font-size: 4.610em;
           padding-left: 10px;
           display: flex;
           color: white;
@@ -49,6 +49,14 @@
                 }
 
     .nav a{ padding: 10px;}  
+
+    .nav a:hover{color:black;
+                  font-size:30px;
+                   font-weight: bolder;}
+
+  #news-header a:hover{background-color: aliceblue;
+                       border-radius: 25px;
+                       border: solid 3px black;}               
     
 /*------------------------SECTION ID SAIBAMAIS------------------------------------------------------------*/
           
@@ -76,7 +84,7 @@
         #img-saibamais{display: flex;
                       align-items: center;}
 
-        .buton{background-color: #122EF5;
+        /*/.buton{background-color: #122EF5;
               display: flex;
               width: 260px;
               height: 52px;
@@ -87,17 +95,32 @@
               border-radius: 30px;
               
               
-            } 
+            } */
            
             
-            .buton .btn{color: white;
-                        text-decoration: none;
+           .buton .btn-Ia{color: white;
+                         background-color: #122EF5;
+                         text-decoration: none;
                          font-size: 24px;
                          font-weight:bolder;
-                         text-align:center;
-                         margin-left: 65px;
+                         text-align: center;
+                         
+
+                         display: flex;
+                         width: 260px;
+                         height: 52px;
+                         line-height: 50px;
+                         margin-top: 100px;
+                         margin-left: -270px;
+                         position: absolute;
+                         border-radius: 30px;
                         
                          }
+
+          .btn-Ia:hover{color:white;
+                        background-color: black;}  
+                        
+          #SaibaM{padding-left: 150px;}             
 
 /*---------------QUEM SOMOS----------------------------------------------------------*/
 
@@ -184,7 +207,10 @@
      #tres-teimosa a{color:#122A57;
                      font-weight: bolder;
                      margin-left: -180px;
-                    text-decoration: none;}  
+                    text-decoration: none;} 
+/*--------------------------------------------------------------------------------------------------*/
+  
+
                     
 /*------------------------------------SECTION PLANOS------------------------------------------------------------*/                    
 
@@ -201,14 +227,17 @@
                justify-content: space-around;
                 padding-top: 300px;}
 
-  .item-plano{flex: 1;
+  .item-plano{flex: 2;
               border: solid 3px #122A57;
               margin-right: 20px;
               padding: 10px;
               max-width: 240px;
-              padding-top: 50px;
+              height: 300px;
+              padding-top: 20px;
               padding-bottom: 50px;
               border-radius: 25px;
+              position: relative;
+              
               } 
             
             
@@ -238,12 +267,14 @@
                          background-color: #122A57;
                          width: 100%;
                           height: 3px;
+                          margin-top: 20px;
+                          margin-bottom: 10px;
                            
                            }                           
                             
              
                             
-  .item-plano .btn{margin: auto;
+  .item-plano .btn{margin:auto ;
                    color: white;
                     text-decoration: none;
                     padding:15px 40px;
@@ -251,7 +282,17 @@
                      border-radius: 35px;
                      font-weight: bolder;
                      margin-left: 30px;
-                      } 
+                     } 
+                     
+                      
+ .altura-btn{margin-top: 130px;}
+
+ #altura-btn-I{ margin-top: 115px;}
+
+ #altura-btn-II{margin-top: 80px;}
+
+ #altura-btn-III{margin-top: 60px;}
+                     
                      
                                           
    #h1-planos{text-align: center;
@@ -260,6 +301,12 @@
               font-size: 48px;
               padding-top: 240px;
               margin-left: 500px;}  
+ /*---------------------------------------------------------------------*/
+    .btn:hover{background-color: blue;
+                border: solid 3px white;} 
+
+    .item-plano:hover{background-color: black;
+                color:white;}                                 
               
 /*-----------FOOTER------------------------------------------------------*/
 
@@ -277,6 +324,12 @@
         margin-top: 155px;
         border-radius: 35px;
        margin-left: -10px;}
+
+
+   #p-footer{text-align: center;
+            font-size: 22px;
+            font-weight: bolder;
+            color: white;}    
 
 
 
