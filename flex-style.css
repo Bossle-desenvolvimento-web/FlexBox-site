@@ -50,13 +50,13 @@
 
     .nav a{ padding: 10px;}  
 
-    .nav a:hover{color:black;
+    .nav a:hover{color:white;
                   font-size:30px;
                    font-weight: bolder;}
 
-  #news-header a:hover{background-color: aliceblue;
+  #news-header a:hover{background-color: black;
                        border-radius: 25px;
-                       border: solid 3px black;}               
+                       border: solid 3px white;}               
     
 /*------------------------SECTION ID SAIBAMAIS------------------------------------------------------------*/
           
@@ -114,6 +114,7 @@
                          margin-left: -270px;
                          position: absolute;
                          border-radius: 30px;
+                         
                         
                          }
 
@@ -193,7 +194,11 @@
                          padding:15px 40px;
                         background-color:white;
                         border-radius: 35px;
-                        font-weight: bolder;}                
+                        font-weight: bolder;} 
+                        
+        .info-servicos a:hover{color: white;
+                               background-color: black;
+                               border: solid 3px white;}                
                       
         #tres-teimosa{display:inline-block;
                       text-align-last: center;
@@ -208,6 +213,8 @@
                      font-weight: bolder;
                      margin-left: -180px;
                     text-decoration: none;} 
+
+    #tres-teimosa a:hover{color:white;}                
 /*--------------------------------------------------------------------------------------------------*/
   
 
@@ -306,7 +313,8 @@
                 border: solid 3px white;} 
 
     .item-plano:hover{background-color: black;
-                color:white;}                                 
+                color:white;
+                border: solid 3px black;}                                 
               
 /*-----------FOOTER------------------------------------------------------*/
 
@@ -326,11 +334,22 @@
        margin-left: -10px;}
 
 
-   #p-footer{text-align: center;
-            font-size: 22px;
+   #p-footer{text-align: left;
+            font-size: 16px;
             font-weight: bolder;
-            color: white;}    
+            color: white;
+            padding-left: 25px;
+            } 
+            
+            
+    #p-footer a{color:white;
+               font-variant: small-caps;
+                font-size: 20px;}  
+                
+    #p-footer a:hover{color:#122EF5;
+                     }            
 
 
 
- 
+    #footer:hover{background-color: black;
+                   }
